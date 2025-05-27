@@ -1,6 +1,6 @@
 /*CORES*/
 
-root {
+:root {
     --primaria: #6B1A30;
     --primaria-alt: #A02748;
     --secundaria: #BEA38C;
@@ -10,7 +10,7 @@ root {
     --branco: #F9F9F9;
     --erro: #FF9B19;
 }
-
+/*
 .cor-primaria{
     background-color: #6B1A30;
 }
@@ -42,3 +42,4 @@ root {
 .cor-erro{
     background-color: #FF9B19;
 }
+*/

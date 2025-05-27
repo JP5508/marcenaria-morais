@@ -1,1 +1,26 @@
+/* IMPORTS */
 @import url(cores.css);
+
+/* BODY */
+header {
+  background-color: var(--primaria);
+  height: 10vh;
+  color: var(--branco);
+}
+
+main {
+  background-color: var(--fundo);
+  height: 100vh;
+  color: var(--secundaria-alt);
+}
+
+footer{
+  background-color: var(--primaria);
+  height: 5vh;
+  color: var(--secundaria-alt);
+}
+
+/* CLASS */
+.logo {
+    height: 100%;
+}

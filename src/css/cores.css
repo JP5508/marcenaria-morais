@@ -1,0 +1,44 @@
+/*CORES*/
+
+root {
+    --primaria: #6B1A30;
+    --primaria-alt: #A02748;
+    --secundaria: #BEA38C;
+    --secundaria-alt: #EECBAD;
+    --acento: #7D8288;
+    --fundo: #1E1E1E;
+    --branco: #F9F9F9;
+    --erro: #FF9B19;
+}
+
+.cor-primaria{
+    background-color: #6B1A30;
+}
+
+.cor-primaria-alt{
+    background-color: #A02748;
+}
+
+.cor-secundaria{
+    background-color: #BEA38C;
+}
+
+.cor-secundaria-alt{
+    background-color: #EECBAD;
+}
+
+.cor-acento{
+    background-color: #7D8288;
+}
+
+.cor-fundo{
+    background-color: #1E1E1E;
+}
+
+.cor-branco{
+    background-color: #F9F9F9;
+}
+
+.cor-erro{
+    background-color: #FF9B19;
+}

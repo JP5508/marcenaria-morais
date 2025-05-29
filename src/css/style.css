@@ -1,21 +1,26 @@
-/* IMPORTS */
+/*-----------*/
+/* -IMPORTS- */
+/*-----------*/
 @import url(cores.css);
 
+
+/*--------*/
+/* -BODY- */
+/*--------*/
 * {
- margin:0; 
- padding: 0;
+  margin:0;
+  padding: 0;
 }
 
-/* BODY */
 body {
- background-color: var(--fundo); 
- height: 100vh;
- width: 100%;
- /* margin-bottom: 100px; */
- color: var(--secundaria-alt);
+  background-color: var(--fundo);
+  height: 100vh;
+  width: 100%;
+  /* margin-bottom: 100px; */
+  color: var(--secundaria-alt);
 }
 
-.nav {
+nav {
   position: fixed;
   background-color: var(--primaria);
   height: 10vh;
@@ -32,9 +37,12 @@ footer{
   left: 0;
 }
 
-/* CLASS */
+
+/*---------*/
+/* -CLASS- */
+/*---------*/
 .logo {
-    height: 100%;
+  height: 100%;
 }
 
 .conteudo {

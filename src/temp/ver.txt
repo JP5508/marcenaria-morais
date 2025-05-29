@@ -4,3 +4,4 @@ ajustes no style.CSS
 termino da base do site em BOOTSTRAP
 teste e formatação da navbar/header
 navegação por links na navbar
+Correção do gitignore

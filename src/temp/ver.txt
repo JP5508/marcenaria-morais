@@ -1,0 +1,5 @@
+TCC - Marcenaria Morais - V1.1
+.vscode removido do github
+ajustes no style.CSS
+termino da base do site em BOOTSTRAP
+teste de navegação por navbar/header

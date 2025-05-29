@@ -1,26 +1,52 @@
 /* IMPORTS */
 @import url(cores.css);
 
-/* BODY */
-header {
-  background-color: var(--primaria);
-  height: 10vh;
-  color: var(--branco);
+* {
+ margin:0; 
+ padding: 0;
 }
 
-main {
-  background-color: var(--fundo);
-  height: 100vh;
-  color: var(--secundaria-alt);
+/* BODY */
+body {
+ background-color: var(--fundo); 
+ height: 100vh;
+ width: 100%;
+ /* margin-bottom: 100px; */
+ color: var(--secundaria-alt);
+}
+
+.nav {
+  position: fixed;
+  background-color: var(--primaria);
+  height: 10vh;
+  width: 100%;
+  color: var(--branco);
 }
 
 footer{
   background-color: var(--primaria);
   height: 5vh;
+  width: 100%;
   color: var(--secundaria-alt);
+  bottom: 0%;
+  left: 0;
 }
 
 /* CLASS */
 .logo {
     height: 100%;
+}
+
+.conteudo {
+  padding-top: 10vh;
+}
+
+.header-link {
+  text-decoration: none;
+  color: var(--secundaria-alt);
+  margin-left: 10px;
+}
+
+.home {
+  margin-left: 10vw;
 }

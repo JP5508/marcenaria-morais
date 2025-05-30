@@ -1,7 +1,2 @@
-TCC - Marcenaria Morais - V1.1
-.vscode removido do github
-ajustes no style.CSS
-termino da base do site em BOOTSTRAP
-teste e formatação da navbar/header
-navegação por links na navbar
-Correção do gitignore
+TCC - Marcenaria Morais - V1.2
+teste do github e vscode portable

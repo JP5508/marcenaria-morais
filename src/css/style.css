@@ -3,7 +3,6 @@
 /*-----------*/
 @import url(cores.css);
 
-
 /*--------*/
 /* -BODY- */
 /*--------*/
@@ -22,39 +21,69 @@ body {
 
 nav {
   position: fixed;
-  background-color: var(--primaria);
+  background-color: var(--primaria-alt);
   height: 10vh;
   width: 100%;
-  color: var(--branco);
 }
 
 footer{
   background-color: var(--primaria);
-  height: 5vh;
+  /* height: 100%; */
   width: 100%;
   color: var(--secundaria-alt);
   bottom: 0%;
   left: 0;
 }
 
-
 /*---------*/
 /* -CLASS- */
 /*---------*/
-.logo {
+.logo_navbar {
   height: 100%;
+  padding-left: 50px;
 }
 
 .conteudo {
   padding-top: 10vh;
+  text-align: center;
 }
 
-.header-link {
+.link {
   text-decoration: none;
   color: var(--secundaria-alt);
-  margin-left: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.home {
-  margin-left: 10vw;
+.teste {
+  background-color: violet;
 }
+
+.logo_home {
+  width: 500px;
+  padding-left: 100px;
+}
+
+/*------*/
+/* -ID- */
+/*------*/
+
+#links {
+  height: 100%;
+  float: right;
+  align-content: center;
+  /* margin-top: 10px; */
+  margin-right: 100px;
+  /* width: 100%; */
+}
+
+/* #home {}
+
+#qualidade {}
+
+#sobre {}
+
+#catalogo {}
+
+#localizacao {} */

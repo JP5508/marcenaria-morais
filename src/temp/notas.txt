@@ -13,15 +13,22 @@
 [ok] ARRUMAR A M3RD4 DO FOOTER
 [] PHP DO CATALOGO
 [] BANCO DE DADOS
-[] ARRUMAR LINKS DA NAVBAR/HEADER
-
+[ok] ARRUMAR LINKS DA NAVBAR/HEADER
+[] FORMATAR O SITE
 
 ----------COMANDOS----------
 
 git rm -r --cached IGNORE
 
-git commit -m "COMMIT"
+git add.
+git commit -m "Título" -m "Descrição"
 git push
 
 ctrl + k + u = comenta
 ctrl + k + c = descomenta
+
+----------ANOTAÇÕES----------
+
+CSS:
+Margin: Espaçamento Exterior
+Paddin: Espaçamento Interiror

@@ -1,3 +1,4 @@
-TCC - Marcenaria Morais - V1.3
-repositório privado
-nenhuma alteração no código
+TCC - Marcenaria Morais - V1.4"
+links da navbar funcionais na posição correta
+adicionei parte do conteúdo das divs
+faltam imagens e formatação de local do texto

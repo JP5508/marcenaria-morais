@@ -1,4 +1,7 @@
-TCC - Marcenaria Morais - V1.4"
-links da navbar funcionais na posição correta
-adicionei parte do conteúdo das divs
-faltam imagens e formatação de local do texto
+TCC - Marcenaria Morais - V1.5
+
+atualizando o github pra ter certeza que ta tudo certo
+adição do bootstrap.txt
+adição do git ignore
+
+06/06/2025

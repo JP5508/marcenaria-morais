@@ -1,7 +1,0 @@
-TCC - Marcenaria Morais - V1.5
-
-atualizando o github pra ter certeza que ta tudo certo
-adição do bootstrap.txt
-adição do git ignore
-
-06/06/2025

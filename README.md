@@ -7,11 +7,11 @@ Este repositório contém o **TCC (Trabalho de Conclusão de Curso)** desenvolvi
 ----
 
 ## EQUIPE
-Bryan Sá de Almeida
-Felipe Augusto Simão dos Santos
-João Pedro Alves Oliveira
-Wictor Morais Gonçalves
-Willian Yago de Jesus Barbosa
+- Bryan Sá de Almeida
+- Felipe Augusto Simão dos Santos
+- João Pedro Alves Oliveira
+- Wictor Morais Gonçalves
+- Willian Yago de Jesus Barbosa
 
 ## ORIENTAÇÃO
 EDINA AMELIA ALVES — Professora Mestra

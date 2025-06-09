@@ -56,6 +56,10 @@ footer{
   font-weight: bold;
 }
 
+.center {
+  text-align: center;
+}
+
 .logo_home {
   width: 500px;
   padding-left: 100px;

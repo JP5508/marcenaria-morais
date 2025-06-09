@@ -12,9 +12,9 @@
 [ok] ARRUMAR A M3RD4 DO FOOTER
 [ok] ARRUMAR LINKS DA NAVBAR/HEADER
 [] FORMATAR O SITE
-    [] ajustar a largura da página para tirar o scroll lateral
+    [ok] ajustar a largura da página para tirar o scroll lateral
     [] conferir altura das divs com o grupo
-    [] arrumar a posição do conteúdo do footer
+    [ok] arrumar a posição do conteúdo do footer
     [] catalogo?
     [] imagem para localização (ou funcionalidade ja, se possivel)
 

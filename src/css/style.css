@@ -16,7 +16,7 @@ body {
   height: 100vh;
   width: 100%;
   /* margin-bottom: 100px; */
-  color: var(--secundaria-alt);
+  color: var(--branco);
 }
 
 nav {
@@ -27,8 +27,8 @@ nav {
 }
 
 footer{
-  background-color: var(--primaria);
-  /* height: 100%; */
+  /* background-color: var(--primaria);
+  height: 100%; */
   width: 100%;
   color: var(--secundaria-alt);
   bottom: 0%;
@@ -56,13 +56,67 @@ footer{
   font-weight: bold;
 }
 
-.teste {
-  background-color: violet;
+.termo {
+  text-decoration: none;
+  color: var(--secundaria-alt);
+}
+
+.termo:hover {
+  text-decoration: none;
+  color: var(--secundaria-alt);
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
 }
 
 .logo_home {
   width: 500px;
   padding-left: 100px;
+}
+
+.img_perfil {
+  width: 200px;
+}
+
+.icon_quali {
+  width: 200px;
+}
+
+.icon_zap {
+  width: 50px;
+}
+
+.icon_insta {
+  width: 50px;
+}
+
+.footer {
+  background-color: var(--primaria-alt);
+}
+
+.copyright {
+  background-color: var(--primaria);
+}
+
+.btn-cat {
+  color: var(--preto);
+  background-color: var(--secundaria-alt);
+  /* border-color: #212529; */
+}
+.btn-cat:hover {
+  color: var(--branco);
+  background-color: var(--secundaria);
+  /* border-color: #1a1e21; */
+}
+
+.sobre_mim {
+  background-color: var(--acento);
+}
+
+.teste {
+  background-color: violet;
 }
 
 /*------*/
@@ -78,12 +132,33 @@ footer{
   /* width: 100%; */
 }
 
-/* #home {}
+#home {
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  padding-top: 100px;
+}
 
-#qualidade {}
+#sobre {
+  height: 45vh;
+  scroll-margin-top: 10vh;
+  /* padding-top: 10px; */
+}
 
-#sobre {}
+#catalogo {
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+  background-color: var(--primaria);
+}
 
-#catalogo {}
+#qualidade {
+  height: 45vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+}
 
-#localizacao {} */
+#localizacao {
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+}

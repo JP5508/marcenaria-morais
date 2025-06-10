@@ -18,6 +18,8 @@
     [] catalogo?
     [] imagem para localização (ou funcionalidade ja, se possivel)
 
+[] NOVO DESIGN
+
 ----------COMANDOS----------
 
 git rm -r --cached IGNORE

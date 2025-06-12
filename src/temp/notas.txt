@@ -11,14 +11,14 @@
 [ok] FUNCIONALIDADE DA NAVBAR
 [ok] ARRUMAR A M3RD4 DO FOOTER
 [ok] ARRUMAR LINKS DA NAVBAR/HEADER
-[] FORMATAR O SITE
+[ok] FORMATAR O SITE
     [ok] ajustar a largura da página para tirar o scroll lateral
     [ok] conferir altura das divs com o grupo
     [ok] arrumar a posição do conteúdo do footer
-    [] catalogo?
-    [] imagem para localização (ou funcionalidade ja, se possivel)
+    [...] catalogo?
+    [ok] imagem para localização (ou funcionalidade ja, se possivel)
 
-[] NOVO DESIGN
+[fzd] NOVO DESIGN
 
 ----------COMANDOS----------
 

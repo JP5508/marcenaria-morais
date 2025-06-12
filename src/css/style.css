@@ -19,9 +19,11 @@ body {
   color: var(--branco);
   background-image: url(../img/Padrao_Fundo.png);
   background-size: 100px;
+}
 
 nav {
   position: fixed;
+  z-index: 10;
   background-color: var(--primaria-alt);
   height: 10vh;
   width: 100%;
@@ -73,8 +75,12 @@ footer{
 }
 
 .logo_home {
-  width: 500px;
+  width: 800px;
   padding-left: 100px;
+}
+
+.logo_ender {
+  width: 500px;
 }
 
 .img_perfil {
@@ -82,7 +88,7 @@ footer{
 }
 
 .icon_quali {
-  width: 200px;
+  width: 100%;
 }
 
 .icon_zap {
@@ -112,6 +118,14 @@ footer{
   /* border-color: #1a1e21; */
 }
 
+.teste {
+  background-color: violet;
+}
+
+/*-----------*/
+/* -TITULOS- */
+/*-----------*/
+
 .titulo-cinza {
   width: 20%;
   height: 2rem;
@@ -120,11 +134,29 @@ footer{
   background-color: var(--acento);
   z-index: -1;
   position: relative;
-  top: -1.75rem;
+  top: -1.5rem;
 }
 
-.teste {
-  background-color: violet;
+.titulo-vinho {
+  width: 20%;
+  height: 1rem;
+  /* margin-left: auto; */
+  margin-right: auto;
+  background-color: var(--primaria);
+  z-index: -1;
+  position: relative;
+  top: -0.5rem;
+}
+
+.titulo-bege {
+  width: 20%;
+  height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secundaria-alt);
+  z-index: -1;
+  position: relative;
+  top: -1.5rem;
 }
 
 /*------*/
@@ -140,11 +172,19 @@ footer{
   /* width: 100%; */
 }
 
+.link:hover {
+  color: var(--secundaria);
+}
+
 #home {
   height: 90vh;
   scroll-margin-top: 10vh;
   padding-top: 100px;
+}
+
+.testegb {
   background-image: url(../img/Home.png);
+  opacity: 0.5;
 }
 
 #sobre {
@@ -163,6 +203,7 @@ footer{
   height: 45vh;
   scroll-margin-top: 10vh;
   padding-top: 50px;
+  text-align: left;
 }
 
 #localizacao {

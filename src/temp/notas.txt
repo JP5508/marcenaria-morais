@@ -19,6 +19,7 @@
     [ok] imagem para localização (ou funcionalidade ja, se possivel)
 
 [fzd] NOVO DESIGN
+[] ALTERAR OS NOMES DAS IMAGENS E ORGANIZAR AS CLASSES PEQUENAS NO CSS
 
 ----------COMANDOS----------
 

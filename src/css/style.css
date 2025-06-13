@@ -1,11 +1,11 @@
-/*-----------*/
-/* -IMPORTS- */
-/*-----------*/
+/*---------------------*/
+/* ------IMPORTS------ */
+/*---------------------*/
 @import url(cores.css);
 
-/*--------*/
-/* -BODY- */
-/*--------*/
+/*------------------*/
+/* ------BODY------ */
+/*------------------*/
 * {
   margin:0;
   padding: 0;
@@ -20,6 +20,7 @@ body {
   background-image: url(../img/Padrao_Fundo.png);
   background-size: 100px;
 }
+
 
 nav {
   position: fixed;
@@ -38,9 +39,67 @@ footer{
   left: 0;
 }
 
-/*---------*/
-/* -CLASS- */
-/*---------*/
+/*----------------*/
+/* ------ID------ */
+/*----------------*/
+
+#links {
+  height: 100%;
+  float: right;
+  align-content: center;
+  /* margin-top: 10px; */
+  margin-right: 100px;
+  /* width: 100%; */
+}
+
+.link:hover {
+  color: var(--secundaria);
+}
+
+#home {
+  height: 90vh;
+  padding-top: 100px;
+  scroll-margin-top: 10vh;
+  color: var(--branco);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), var(--fundo)), url(../img/Home.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#sobre {
+  height: 45vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+  text-align: left;
+  color: var(--branco);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), var(--fundo)), url(../img/img_sobre.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#catalogo {
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+}
+
+#qualidade {
+  height: 45vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+  text-align: left;
+}
+
+#localizacao {
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+}
+
+/*-------------------*/
+/* ------CLASS------ */
+/*-------------------*/
 .logo_navbar {
   height: 100%;
   padding-left: 50px;
@@ -85,6 +144,7 @@ footer{
 
 .img_perfil {
   width: 200px;
+  border-radius: 50%;
 }
 
 .icon_quali {
@@ -122,9 +182,9 @@ footer{
   background-color: violet;
 }
 
-/*-----------*/
-/* -TITULOS- */
-/*-----------*/
+/*---------------------*/
+/* ------TITULOS------ */
+/*---------------------*/
 
 .titulo-cinza {
   width: 20%;
@@ -157,57 +217,4 @@ footer{
   z-index: -1;
   position: relative;
   top: -1.5rem;
-}
-
-/*------*/
-/* -ID- */
-/*------*/
-
-#links {
-  height: 100%;
-  float: right;
-  align-content: center;
-  /* margin-top: 10px; */
-  margin-right: 100px;
-  /* width: 100%; */
-}
-
-.link:hover {
-  color: var(--secundaria);
-}
-
-#home {
-  height: 90vh;
-  scroll-margin-top: 10vh;
-  padding-top: 100px;
-}
-
-.testegb {
-  background-image: url(../img/Home.png);
-  opacity: 0.5;
-}
-
-#sobre {
-  height: 45vh;
-  scroll-margin-top: 10vh;
-  /* padding-top: 10px; */
-}
-
-#catalogo {
-  height: 90vh;
-  scroll-margin-top: 10vh;
-  padding-top: 50px;
-}
-
-#qualidade {
-  height: 45vh;
-  scroll-margin-top: 10vh;
-  padding-top: 50px;
-  text-align: left;
-}
-
-#localizacao {
-  height: 90vh;
-  scroll-margin-top: 10vh;
-  padding-top: 50px;
 }

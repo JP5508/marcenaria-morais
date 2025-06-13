@@ -7,7 +7,7 @@
     --secundaria-alt: #EECBAD;
     --acento: #7D8288;
     --fundo: #1E1E1E;
-    --branco: #F9F9F9;
+    --branco: #FFFFFF;
     --preto: #000000;
     --erro: #FF9B19;
 }
@@ -37,7 +37,11 @@
 }
 
 .cor-branco{
-    background-color: #F9F9F9;
+    background-color: #ffffff;
+}
+
+.cor-preto{
+    background-color: #000000;
 }
 
 .cor-erro{

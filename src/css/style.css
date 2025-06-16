@@ -45,11 +45,11 @@ footer{
 
 #links {
   height: 100%;
+  width: 50%;
   float: right;
   align-content: center;
+  margin-right: 50px;
   /* margin-top: 10px; */
-  margin-right: 100px;
-  /* width: 100%; */
 }
 
 .link:hover {
@@ -97,14 +97,23 @@ footer{
   padding-top: 50px;
 }
 
+#redes {
+  height: 90vh;
+  scroll-margin-top: 10vh;
+  padding-top: 50px;
+}
+
 #fundo-locate {
-  background-color: var(--acento);
-  width: 80%;
+  /* background-color: var(--acento); */
+  /* width: 80%; */
   border-radius: 10px;
   padding-top: 20px;
   padding-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  background: linear-gradient(var(--fundo), var(--acento));
+  background-size: cover;
+  background-position: center;
 }
 
 /*-------------------*/
@@ -123,8 +132,8 @@ footer{
 .link {
   text-decoration: none;
   color: var(--secundaria-alt);
-  margin-left: 50px;
-  font-size: 20px;
+  margin-left: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 

@@ -114,6 +114,12 @@ footer{
   background: linear-gradient(var(--fundo), var(--acento));
   background-size: cover;
   background-position: center;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#fundo-endereco {
+  text-align: center;
 }
 
 /*-------------------*/
